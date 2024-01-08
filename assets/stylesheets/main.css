@@ -1,0 +1,156 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+footer{
+  padding: 20px;
+}
+
+.logo img {
+  width: 100px; /* Adjust the logo size as needed */
+  height: auto;
+}
+
+h1 {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover-photo {
+  text-align: center; /* Center the cover photo */
+}
+
+.cover-photo img {
+  max-width: 100%; /* Adjust the cover photo size as needed */
+  height: auto;
+}
+
+.team-bios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-member {
+  text-align: center;
+  flex-basis: 30%; /* Adjust the width of team member sections as needed */
+  margin: 20px;
+}
+
+.team-member img {
+  width: 150px; /* Adjust headshot size as needed */
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Updated styles for blog posts */
+.blog-post {
+  text-align: center;
+  margin: 20px auto; /* Added margin to provide separation between blog posts */
+  position: relative;
+}
+
+.blog-post h2 {
+  padding-top: 10px;
+}
+
+.blog-content {
+  display: none;
+  margin-top: 10px; /* Added margin to create separation between arrow and content */
+  padding: 10px; /* Added padding to the content area for better readability */
+}
+
+.blog-content.visible {
+  display: block;
+}
+
+.dropdown-arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333; /* Changed border-bottom to border-top */
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+/* Add styles for the dropdown caption */
+.dropdown-caption {
+  font-size: 12px;
+  color: #666;
+  padding-bottom: 8px; /* Added padding to create separation below the text */
+}
+
+/* About Page*/
+.about-us-content{
+  padding: 0 20px;
+}
+
+/* Updated styles for the logo */
+.ablogo {
+  text-align: center;
+  margin-bottom: 20px; /* Add some spacing between the logo and the content */
+}
+
+.ablogo img {
+  max-width: 500px; /* Set the maximum width for the logo to 200px (adjust as needed) */
+}
+
+/* Mobile-friendly styles */
+@media screen and (max-width: 600px) {
+  .logo img {
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .cover-photo img {
+    max-width: 100%;
+  }
+
+  .team-bios {
+    flex-wrap: wrap;
+  }
+
+  .team-member {
+    flex-basis: 45%;
+  }
+
+  .team-member img {
+    width: 120px;
+    height: 120px;
+  }
+}
