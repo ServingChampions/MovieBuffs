@@ -76,6 +76,15 @@ nav a {
   position: relative;
 }
 
+.blog{
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0;
+  display: inline-block;
+  text-align: left;
+  margin-left: 20px;
+}
+
 .blog-post h2 {
   padding-top: 10px;
 }
