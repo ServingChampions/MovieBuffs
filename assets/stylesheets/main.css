@@ -47,7 +47,7 @@ nav a {
 }
 
 .cover-photo img {
-  max-width: 100%; /* Adjust the cover photo size as needed */
+  max-width: 50%; /* Adjust the cover photo size as needed */
   height: auto;
 }
 
